@@ -1,13 +1,13 @@
 <!doctype html>
-<html>
+<html lang="ja">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Presentation</title>
 
 		<link rel="stylesheet" href="../reveal.js/css/reveal.css">
-		<link rel="stylesheet" href="../reveal.js/css/theme/black.css">
+		<link rel="stylesheet" href="../reveal.js/css/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
@@ -20,11 +20,18 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? '../css/print/pdf.css' : '../css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
+		<!-- Customized CSS -->
+		<style>
+			* {
+				text-transform: initial !important;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown="content.md" data-separator="^\r?\n\r?\n\r?\n" data-separator-vertical="^\r?\n\r?\n" data-separator-notes="^Note:" data-charset="utf-8"></section>
+				<section data-markdown="content.md" data-charset="utf-8"></section>
 			</div>
 		</div>
 
